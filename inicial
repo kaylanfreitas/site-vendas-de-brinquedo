@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor}
+		body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #00bfff;
+	padding: 20px;
+	color: #fff;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+main {
+	margin: 20px auto;
+	max-width: 1200px;
+}
+
+.featured {
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.featured h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.featured-item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.featured-item img {
+	max-width: 50%;
+}
+
+.featured-info {
+	max-width: 45%;
+}
+
+.featured-info h3 {
+	font
+	</style>
+<head>
+	<title>Loja de Brinquedos</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Loja de Brinquedos</h1>
+		<nav class="nav">
+			<ul class="nav ul">
+				<li><a href="inicial.html">Início</a></li>
+				<li><a href="brinquedos.html">Brinquedos</a></li>
+				<li><a href="#">Sobre Nós</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="featured">
+			<h2>Cubo Mágico</h2>
+			<div class="featured-item">
+				<img src="cubo-magico.png" alt="Brinquedo Destaque" style="width: 20%;">
+				<div class="featured-info">
+					<h3>Cubo Mágico</h3>
+					<p>Cubo mágico profissional</p>
+					<button class="button">Comprar Agora</button>
+				</div>
+			</div>
+		</section>
+		<section class="toys">
+			<h2>Brinquedos Populares</h2>
+			<ul>
+				<li class="nav li">
+					<img src="cubo-magico.png" alt="Brinquedo 1" style="width: 15%;">
+					<h3>Cubo Mágico</h3>
+					<p>Cubo mágico profissional</p>
+					<p>Movimentos rápidos e precisos</p>
+					<p>Desenvolvimento do Raciocínio lógico</p>
+					<p>Estimulo a criatividade</p>
+					<p>Certificado pelo Inmetro</p>
+					<button class="button">Comprar</button>
+				</li>
+				<li class="nav li">
+					<img src="beyblade.png" alt="Brinquedo 2" style="width: 15%;">
+					<h3>Beyblade Legends</h3>
+					<p>TAMANHO BEYBLADE APROXIMADAMENTE 5 CM DIÂMETRO</p>
+					<button class="button">Comprar</button>
+				</li>
+				<li class="nav li">
+					<img src="helicoptero.png" alt="Brinquedo 3" style="width: 15%;">
+					<h3>Helicóptero de controle remoto</h3>
+					<p>Este brinquedo é ideal para iniciantes.</p>
+					<button class="button">Comprar</button>
+				</li>
+			</ul>
+		</section>
+	</main>
+</body>
+</html>
